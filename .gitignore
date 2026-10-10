@@ -1,0 +1,28 @@
+# ---- Raw / licensed data (download locally; see README) ----
+data/faers_ascii/
+data/zip_cache/
+data/rds_cache_full/
+data/jader/
+data/MedDRA*
+data/meddra_pt_soc_map.csv
+
+# Real input files (contain MedDRA terms or study-specific counts;
+# only the *.template.csv versions are committed)
+data/excluded_pts.csv
+data/dme_list.csv
+data/meddra_j_en_map.csv
+data/eudravigilance_soc_counts.csv
+
+# ---- Generated output ----
+workdir/
+results/
+figures/
+
+# ---- R / OS noise ----
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+renv/library/
+renv/staging/
